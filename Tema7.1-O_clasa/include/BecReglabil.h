@@ -16,9 +16,9 @@ class BecReglabil
         unsigned short GetPutereCurenta(){return putereCurenta;}
         void Aprinde();
         void Stinge();
-        unsigned short MaresteLumina(unsigned short);
-        unsigned short ReduceLumina(unsigned short);
-        void StareaBec();
+        void MaresteLumina(unsigned short);
+        void ReduceLumina(unsigned short);
+        void StareBec();
 
         BecReglabil();
         virtual ~BecReglabil();
