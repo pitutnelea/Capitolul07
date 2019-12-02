@@ -72,7 +72,9 @@ void Candelabru::StareCandelabru()
 {
     for (int i=0; i < nrBecuri;i++)
     {
-        if ((listaBecuri[i].StareBec())=true) {return true; break;}
-        else return false;
+        listaBecuri[i].StareBec();
+        //(listaBecuri[i].StareBec())? cout<<"Candelabrul e aprins" : cout <<"Candelabrul e stins";
+        if (listaBecuri[i].StareBec()== true) {StareCandelabru() = true;}
+        esle listaBecuri[i].StareBec()== false;
     }
 }

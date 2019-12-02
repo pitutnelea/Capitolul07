@@ -44,5 +44,5 @@ void BecReglabil::ReduceLumina(unsigned short parametru2)
 
 void BecReglabil::StareBec()
 {
-    (aprins==true)?cout<<"Becul e aprins":cout<<"Becul e stins";
+    (aprins)?cout<<"Becul e aprins":cout<<"Becul e stins";
 }
