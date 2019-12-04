@@ -17,7 +17,7 @@ Candelabru::~Candelabru()
 void Candelabru::ConfigureazaCandelabru(unsigned short par1_nr_becuri)
 {
     nrBecuri = par1_nr_becuri;
-    BecReglabil *listaBecuri = new BecReglabil[nrBecuri];
+    listaBecuri = new BecReglabil[nrBecuri];
     for (int i = 0 ; i < nrBecuri; i++)
     {
         listaBecuri[i].SetPutereCurenta(0);
@@ -57,24 +57,22 @@ void Candelabru::ReduceLumina(unsigned short par3)
     }
 }
 
-void Candelabru::PutereMaximaCandelabru()
+unsigned short Candelabru::PutereMaximaCandelabru()
 {
     unsigned short sum = 0;
     for (int i=0; i < nrBecuri;i++)
     {
         sum += listaBecuri[i].GetPutereMaxima();
     }
-    cout<<"Suma puterilor maxime este:"<< sum << endl;
+    cout<<sum<<endl;
+    return sum;
 }
 
-//returneză true dacă cel puțin un bec are membrul aprins pe true. Dacă nu, returnează false
-void Candelabru::StareCandelabru()
+bool Candelabru::StareCandelabru()
 {
     for (int i=0; i < nrBecuri;i++)
     {
-        listaBecuri[i].StareBec();
-        //(listaBecuri[i].StareBec())? cout<<"Candelabrul e aprins" : cout <<"Candelabrul e stins";
-        if (listaBecuri[i].StareBec()== true) {StareCandelabru() = true;}
-        esle listaBecuri[i].StareBec()== false;
+        if (listaBecuri[i].GetPutereCurenta()>0) return true;
     }
+    return false;
 }

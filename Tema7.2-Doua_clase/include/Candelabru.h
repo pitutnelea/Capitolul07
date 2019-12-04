@@ -14,8 +14,8 @@ class Candelabru
         void StingeLumina();
         void MaresteLumina(unsigned short);
         void ReduceLumina(unsigned short);
-        void PutereMaximaCandelabru();
-        void StareCandelabru();
+        unsigned short PutereMaximaCandelabru();
+        bool StareCandelabru();
 
         Candelabru();
         virtual ~Candelabru();

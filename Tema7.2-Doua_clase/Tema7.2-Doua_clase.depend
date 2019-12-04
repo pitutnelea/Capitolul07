@@ -1,19 +1,19 @@
 # depslib dependency file v1.0
-1575325724 source:d:\cplusplus\proiecte\capitolul07\tema7.2-doua_clase\src\becreglabil.cpp
+1575491758 source:d:\cplusplus\proiecte\capitolul07\tema7.2-doua_clase\src\becreglabil.cpp
 	"BecReglabil.h"
 	"Candelabru.h"
 	<iostream>
 
-1575325161 d:\cplusplus\proiecte\capitolul07\tema7.2-doua_clase\include\becreglabil.h
+1575491451 d:\cplusplus\proiecte\capitolul07\tema7.2-doua_clase\include\becreglabil.h
 
-1575328143 source:d:\cplusplus\proiecte\capitolul07\tema7.2-doua_clase\main.cpp
+1575490897 source:d:\cplusplus\proiecte\capitolul07\tema7.2-doua_clase\main.cpp
 	<iostream>
 	"Candelabru.h"
 	"BecReglabil.h"
 
-1575328143 d:\cplusplus\proiecte\capitolul07\tema7.2-doua_clase\include\candelabru.h
+1575487678 d:\cplusplus\proiecte\capitolul07\tema7.2-doua_clase\include\candelabru.h
 
-1575323388 source:d:\cplusplus\proiecte\capitolul07\tema7.2-doua_clase\src\candelabru.cpp
+1575491929 source:d:\cplusplus\proiecte\capitolul07\tema7.2-doua_clase\src\candelabru.cpp
 	"Candelabru.h"
 	"BecReglabil.h"
 	<iostream>

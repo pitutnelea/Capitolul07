@@ -10,34 +10,40 @@ int main()
     cand3.ConfigureazaCandelabru(3);
     cand5.ConfigureazaCandelabru(5);
     cout<<"StareCandelabru (dupa configurare):"<<endl;
-    cand3.StareCandelabru(); cout<<" "<<endl;
-    cand5.StareCandelabru(); cout<<" "<<endl;
+    cout<< (cand3.StareCandelabru()? "aprins" : "stins")<<endl;
+    cout<< (cand5.StareCandelabru()? "aprins" : "stins")<<endl;
 
     cand3.AprindeLumina();
     cand5.AprindeLumina();
-    cand3.StareCandelabru(); cout<<" "<<endl;
-    cand5.StareCandelabru(); cout<<" "<<endl;
+    cout<<"StareCandelabru (dupa ce aprind lumina):"<<endl;
+    cout<< (cand3.StareCandelabru()? "aprins" : "stins")<<endl;
+    cout<< (cand5.StareCandelabru()? "aprins" : "stins")<<endl;
 
     cand3.StingeLumina();
     cand5.StingeLumina();
-    cand3.StareCandelabru(); cout<<" "<<endl;
-    cand5.StareCandelabru(); cout<<" "<<endl;
+    cout<<"StareCandelabru (dupa ce sting lumina):"<<endl;
+    cout<< (cand3.StareCandelabru()? "aprins" : "stins")<<endl;
+    cout<< (cand5.StareCandelabru()? "aprins" : "stins")<<endl;
 
     cand3.MaresteLumina(150);
     cand5.MaresteLumina(150);
-    cand3.StareCandelabru(); cout<<" "<<endl;
-    cand5.StareCandelabru(); cout<<" "<<endl;
+    cout<<"StareCandelabru (dupa ce maresc lumina cu 150):"<<endl;
+    cout<< (cand3.StareCandelabru()? "aprins" : "stins")<<endl;
+    cout<< (cand5.StareCandelabru()? "aprins" : "stins")<<endl;
 
     cand3.ReduceLumina(75);
     cand5.ReduceLumina(75);
-    cand3.StareCandelabru(); cout<<" "<<endl;
-    cand5.StareCandelabru(); cout<<" "<<endl;
+    cout<<"StareCandelabru (dupa ce reduc lumina cu 75):"<<endl;
+    cout<< (cand3.StareCandelabru()? "aprins" : "stins")<<endl;
+    cout<< (cand5.StareCandelabru()? "aprins" : "stins")<<endl;
 
     cand3.ReduceLumina(30);
     cand5.ReduceLumina(30);
-    cand3.StareCandelabru(); cout<<" "<<endl;
-    cand5.StareCandelabru(); cout<<" "<<endl;
+    cout<<"StareCandelabru (dupa ce reduc lumina cu 30):"<<endl;
+    cout<< (cand3.StareCandelabru()? "aprins" : "stins")<<endl;
+    cout<< (cand5.StareCandelabru()? "aprins" : "stins")<<endl;
 
+    cout<<"PutereMaximaCandelabru:"<<endl;
     cand3.PutereMaximaCandelabru(); cout<< " "<<endl;
     cand5.PutereMaximaCandelabru();
 
