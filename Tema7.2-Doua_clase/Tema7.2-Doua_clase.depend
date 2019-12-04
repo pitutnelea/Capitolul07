@@ -4,7 +4,7 @@
 	"Candelabru.h"
 	<iostream>
 
-1575491451 d:\cplusplus\proiecte\capitolul07\tema7.2-doua_clase\include\becreglabil.h
+1575493154 d:\cplusplus\proiecte\capitolul07\tema7.2-doua_clase\include\becreglabil.h
 
 1575490897 source:d:\cplusplus\proiecte\capitolul07\tema7.2-doua_clase\main.cpp
 	<iostream>
@@ -13,7 +13,7 @@
 
 1575487678 d:\cplusplus\proiecte\capitolul07\tema7.2-doua_clase\include\candelabru.h
 
-1575491929 source:d:\cplusplus\proiecte\capitolul07\tema7.2-doua_clase\src\candelabru.cpp
+1575492989 source:d:\cplusplus\proiecte\capitolul07\tema7.2-doua_clase\src\candelabru.cpp
 	"Candelabru.h"
 	"BecReglabil.h"
 	<iostream>

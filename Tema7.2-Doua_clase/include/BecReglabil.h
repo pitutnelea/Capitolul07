@@ -19,7 +19,6 @@ class BecReglabil
         void MaresteLumina(unsigned short);
         void ReduceLumina(unsigned short);
         void StareBec();
-        static unsigned short putereMinima;
 
         BecReglabil();
         virtual ~BecReglabil();

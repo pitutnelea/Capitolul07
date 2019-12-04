@@ -3,8 +3,6 @@
 #include <iostream>
 using namespace std;
 
-unsigned short BecReglabil::putereMinima = 0;
-
 BecReglabil::BecReglabil()
 {
     //ctor
@@ -24,7 +22,7 @@ void BecReglabil::Aprinde()
 void BecReglabil::Stinge()
 {
     aprins = false;
-    putereCurenta = putereMinima;
+    putereCurenta = 0;
 }
 
 void BecReglabil::MaresteLumina(unsigned short parametru1)
@@ -40,8 +38,8 @@ void BecReglabil::MaresteLumina(unsigned short parametru1)
 void BecReglabil::ReduceLumina(unsigned short parametru2)
 {
     putereCurenta -= parametru2;
-    if (putereCurenta < 0) {putereCurenta = putereMinima;}
-    (putereCurenta == putereMinima)? aprins = false : aprins = true;
+    if (putereCurenta < 0) {putereCurenta = 0;}
+    (putereCurenta == 0)? aprins = false : aprins = true;
 }
 
 void BecReglabil::StareBec()
