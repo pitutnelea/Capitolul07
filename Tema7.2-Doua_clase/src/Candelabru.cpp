@@ -12,6 +12,8 @@ Candelabru::Candelabru()
 Candelabru::~Candelabru()
 {
     //dtor
+    delete[] listaBecuri;
+    listaBecuri = NULL;
 }
 
 void Candelabru::ConfigureazaCandelabru(unsigned short par1_nr_becuri)
@@ -64,7 +66,7 @@ unsigned short Candelabru::PutereMaximaCandelabru()
     {
         sum += listaBecuri[i].GetPutereMaxima();
     }
-    cout<<sum<<endl;
+    cout<<sum;
     return sum;
 }
 
