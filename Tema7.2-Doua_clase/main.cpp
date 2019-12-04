@@ -47,8 +47,5 @@ int main()
     cand3.PutereMaximaCandelabru(); cout<< " "<<endl;
     cand5.PutereMaximaCandelabru();
 
-    //delete listaBecuri;
-    //listaBecuri = nullptr;
-
     return 0;
 }
