@@ -1,7 +1,6 @@
 #ifndef BECREGLABIL_H
 #define BECREGLABIL_H
 
-class Candelabru;
 class BecReglabil
 {
     private:

@@ -1,7 +1,7 @@
 #ifndef CANDELABRU_H
 #define CANDELABRU_H
+#include "BecReglabil.h"
 
-class BecReglabil;
 class Candelabru
 {
     private:
