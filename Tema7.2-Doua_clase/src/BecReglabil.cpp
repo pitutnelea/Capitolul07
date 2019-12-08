@@ -37,9 +37,12 @@ void BecReglabil::MaresteLumina(unsigned short parametru1)
 
 void BecReglabil::ReduceLumina(unsigned short parametru2)
 {
-    putereCurenta -= parametru2;
-    if (putereCurenta < 0) {putereCurenta = 0;}
-    (putereCurenta == 0)? aprins = false : aprins = true;
+    if (putereCurenta <=parametru2)
+    {
+        putereCurenta = 0;
+        aprins = false;
+    }
+    else putereCurenta -=parametru2;
 }
 
 void BecReglabil::StareBec()
