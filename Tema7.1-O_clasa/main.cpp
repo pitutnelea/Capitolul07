@@ -5,7 +5,6 @@ using namespace std;
 
 int main()
 {
-    //la final 75 stins si 100 sa fie aprins
     BecReglabil bec75, bec100;
     bec75.SetPutereCurenta(0);
     bec75.SetPutereMaxima(75);

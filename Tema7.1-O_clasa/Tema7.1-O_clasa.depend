@@ -1,9 +1,9 @@
 # depslib dependency file v1.0
-1574881370 source:d:\cplusplus\proiecte\capitolul07\tema7.1-o_clasa\main.cpp
+1575811029 source:d:\cplusplus\proiecte\capitolul07\tema7.1-o_clasa\main.cpp
 	<iostream>
 	"BecReglabil.h"
 
-1574882128 source:d:\cplusplus\proiecte\capitolul07\tema7.1-o_clasa\src\becreglabil.cpp
+1575811240 source:d:\cplusplus\proiecte\capitolul07\tema7.1-o_clasa\src\becreglabil.cpp
 	"BecReglabil.h"
 	<iostream>
 
